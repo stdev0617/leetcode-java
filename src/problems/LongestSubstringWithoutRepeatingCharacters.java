@@ -1,3 +1,5 @@
+package problems;
+
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         if(s.equals("")) {
