@@ -2,8 +2,11 @@ import java.util.List;
 
 public class main {
     public static void main(String[] args) {
-        String[] strs = {"eat","tea","tan","ate","nat","bat"};
-        GroupAnagrams ga = new GroupAnagrams();
-        ga.groupAnagrams(strs);
+        int[] nums = {3, 2, 1, 0, 4};
+        JumpGame jumpGame = new JumpGame();
+        System.out.println(jumpGame.canJump(nums));
+        int[] nums2 = {2, 3, 1, 1, 4};
+//        System.out.println(jumpGame.canJump(nums2));
+
     }
 }
