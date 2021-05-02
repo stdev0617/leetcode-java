@@ -16,9 +16,9 @@ public class SortColors {
                 map.put(nums[i], map.get(nums[i])+1);
             }
         }
-        for(int i = 0; i < map.entrySet().size(); i++) {
+        for(int i = 0; i < 3; i++) {
             for (int j = 0; j < map.get(i); i++) {
-                result[idx] = 
+                result[idx] = i;
                 idx++;
             }
         }
