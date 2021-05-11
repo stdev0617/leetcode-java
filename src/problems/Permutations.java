@@ -13,7 +13,7 @@ public class Permutations {
 //            System.out.print(list.get(j)+",");
 //        }
 //        System.out.println("이번꺼 끝");
-        int tmp; 
+        int tmp;
         if(list.size() == 1) {
             result.add(list.get(0));
             resultList.add(result);
